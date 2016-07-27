@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<subscriptions version="1">
+
+  <subscription event-name="running" handler-name="javascript">
+    <parameter>
+      <parameter name="filename1">/usr/share/dss/data/scripts/system_register_trigger.js</parameter>
+      <parameter name="filename2">/usr/share/dss/add-ons/tado/include.js</parameter>
+      <parameter name="filename3">/usr/share/dss/add-ons/tado/init.js</parameter>
+      <parameter name="script_id">tado</parameter>
+      <!-- <parameter name="time">+1</parameter> -->
+    </parameter>
+  </subscription>
+
+  <subscription event-name="tado.config" handler-name="javascript">
+    <parameter>
+      <parameter name="filename1">/usr/share/dss/add-ons/tado/include.js</parameter>
+      <parameter name="filename2">/usr/share/dss/add-ons/tado/config.js</parameter>
+      <parameter name="script_id">tado</parameter>
+    </parameter>
+  </subscription>
+
+  <subscription event-name="tado.reset" handler-name="javascript">
+    <parameter>
+      <parameter name="filename1">/usr/share/dss/add-ons/tado/include.js</parameter>
+      <parameter name="filename2">/usr/share/dss/add-ons/tado/reset.js</parameter>
+      <parameter name="script_id">tado</parameter>
+    </parameter>
+  </subscription>
+
+  <subscription event-name="tado.execute" handler-name="javascript">
+    <parameter>
+      <parameter name="filename1">/usr/share/dss/add-ons/tado/include.js</parameter>
+      <parameter name="filename2">/usr/share/dss/add-ons/tado/execute.js</parameter>
+      <parameter name="script_id">tado</parameter>
+    </parameter>
+  </subscription>
+
+  <subscription event-name="tado.activity" handler-name="javascript">
+    <parameter>
+      <parameter name="filename1">/usr/share/dss/data/scripts/system_register_trigger.js</parameter>
+      <parameter name="filename2">/usr/share/dss/add-ons/tado/include.js</parameter>
+      <parameter name="filename3">/usr/share/dss/add-ons/tado/activity.js</parameter>
+      <parameter name="script_id">tado</parameter>
+    </parameter>
+  </subscription>
+
+  <subscription event-name="tado.device" handler-name="javascript">
+    <parameter>
+      <parameter name="filename1">/usr/share/dss/data/scripts/system_register_trigger.js</parameter>
+      <parameter name="filename2">/usr/share/dss/add-ons/tado/include.js</parameter>
+      <parameter name="filename3">/usr/share/dss/add-ons/tado/device.js</parameter>
+      <parameter name="script_id">tado</parameter>
+    </parameter>
+  </subscription>
+
+
+</subscriptions>
