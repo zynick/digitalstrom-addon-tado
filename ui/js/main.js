@@ -27,6 +27,10 @@ Ext.define('SMARTBOX.addon.Tado', {
         if (!this.callbackSetupTabs) {
             var me = this;
             this.callbackSetupTabs = function(response) {
+                /**
+                 * FIXME would be great if returned response follow standard JSON format:
+                 * e.g. response.ok is better to be in boolean instead of string
+                 */
                 if (response.actions !== 'config.isConnected') {
                     return;
                 }
