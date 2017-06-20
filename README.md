@@ -1,4 +1,4 @@
+# digitalSTROM Addon - tado
+A digitalSTROM Addon to control [tado Smart AC Control](https://www.tado.com)
 
-# dSS Addon - tado
-
-use this to allow dss control tado
+Original repo @ [https://git.digitalstrom.org/zynick/dss-addon-tado](https://git.digitalstrom.org/zynick/dss-addon-tado)
